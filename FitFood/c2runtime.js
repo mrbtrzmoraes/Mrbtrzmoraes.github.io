@@ -23291,10 +23291,10 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.Mouse,
-	cr.plugins_.Text,
+	cr.plugins_.Audio,
 	cr.plugins_.Touch,
+	cr.plugins_.Text,
 	cr.plugins_.Sprite,
 	cr.behaviors.Bullet,
 	cr.behaviors.solid,
@@ -23339,8 +23339,8 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Audio.prototype.acts.SetSilent,
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
+	cr.plugins_.Audio.prototype.acts.Stop,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
-	cr.plugins_.Sprite.prototype.acts.SetScale,
-	cr.plugins_.Audio.prototype.acts.Stop
+	cr.plugins_.Sprite.prototype.acts.SetScale
 ];};
 
