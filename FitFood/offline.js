@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1502727281,
+	"version": 1502745883,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -26,7 +26,7 @@
 		"images/sprite-sheet0.png",
 		"images/restart1-sheet0.png",
 		"images/sprite4-sheet0.png",
-		"images/menup-sheet0.png",
+		"images/menup1-sheet0.png",
 		"media/não É proibido - marisa monte (instrumental) (mp3cut.net).m4a",
 		"media/não É proibido - marisa monte (instrumental) (mp3cut.net).ogg",
 		"media/2 fail.m4a",

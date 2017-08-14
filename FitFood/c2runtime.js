@@ -23339,7 +23339,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Audio.prototype.acts.SetSilent,
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
-	cr.plugins_.Audio.prototype.acts.Stop,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Sprite.prototype.acts.SetScale
 ];};
