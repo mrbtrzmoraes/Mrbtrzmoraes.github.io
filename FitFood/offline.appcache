@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1502746333
+#1503802037
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -14,18 +14,23 @@ images/sucodelaranja-sheet0.png
 images/rosquinha-sheet0.png
 images/pizza-sheet0.png
 images/plat-sheet0.png
-images/play-sheet0.png
-images/som1-sheet0.png
-images/som1-sheet1.png
-images/informacoes-sheet0.png
-images/fjogo-sheet0.png
+images/parte1cozinha-sheet0.png
 images/personagem-sheet0.png
 images/personagem-sheet1.png
 images/bopcoes-sheet0.png
-images/sprite-sheet0.png
+images/hud2-sheet0.png
 images/restart1-sheet0.png
+images/som-sheet0.png
+images/som-sheet1.png
 images/sprite4-sheet0.png
 images/menup1-sheet0.png
+images/informacoes-sheet0.png
+images/play-sheet0.png
+images/logo-sheet0.png
+images/nomedojogo-sheet0.png
+images/informa-sheet0.png
+images/sprite-sheet0.png
+images/parte2czinha-sheet0.png
 media/não%20É%20proibido%20-%20marisa%20monte%20(instrumental)%20(mp3cut.net).m4a
 media/não%20É%20proibido%20-%20marisa%20monte%20(instrumental)%20(mp3cut.net).ogg
 media/2%20fail.m4a
@@ -38,6 +43,8 @@ media/177852_motion-s_hit-fx-winding-down%20(online-audio-converter.com).m4a
 media/177852_motion-s_hit-fx-winding-down%20(online-audio-converter.com).ogg
 media/1%20resposta%20certa%20(mp3cut.net).m4a
 media/1%20resposta%20certa%20(mp3cut.net).ogg
+media/meiga%20e%20abusada%20(official%20instrumental)%20-%20anitta%20(mp3cut.net).m4a
+media/meiga%20e%20abusada%20(official%20instrumental)%20-%20anitta%20(mp3cut.net).ogg
 icon-16.png
 icon-32.png
 icon-114.png

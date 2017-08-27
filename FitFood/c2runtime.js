@@ -10191,7 +10191,7 @@ window["cr_setSuspended"] = function(s)
 			this.is_else_block = (this.conditions[0].type == null && this.conditions[0].func == cr.system_object.prototype.cnds.Else);
 		}
 	};
-	window["_c2hh_"] = "BB7FAC889387D49572CCBC52C1A9C3DC2207AE11";
+	window["_c2hh_"] = "15044A03B0852397C4C7D3896B375C768AC90998";
 	EventBlock.prototype.postInit = function (hasElse/*, prevBlock_*/)
 	{
 		var i, len;
@@ -23292,10 +23292,10 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
-	cr.plugins_.Audio,
+	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
 	cr.plugins_.Text,
-	cr.plugins_.Touch,
+	cr.plugins_.Audio,
 	cr.behaviors.Bullet,
 	cr.behaviors.solid,
 	cr.behaviors.Platform,
@@ -23310,7 +23310,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.OnLayoutEnd,
 	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.plugins_.Touch.prototype.cnds.IsInTouch,
-	cr.behaviors.DragnDrop.prototype.acts.Drop,
 	cr.plugins_.Sprite.prototype.cnds.CompareX,
 	cr.plugins_.Touch.prototype.exps.X,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
@@ -23339,7 +23338,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Audio.prototype.acts.SetSilent,
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
-	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Sprite.prototype.acts.SetScale
 ];};
 
