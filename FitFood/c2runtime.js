@@ -23796,10 +23796,10 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
-	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
-	cr.plugins_.Text,
 	cr.plugins_.Audio,
+	cr.plugins_.Sprite,
+	cr.plugins_.Text,
+	cr.plugins_.Touch,
 	cr.behaviors.Bullet,
 	cr.behaviors.Fade,
 	cr.behaviors.solid,
@@ -23831,12 +23831,12 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
-	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.Wait,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.system_object.prototype.cnds.Else,
+	cr.plugins_.Text.prototype.acts.SetText,
 	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.cnds.EveryTick,
-	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Sprite.prototype.exps.AnimationName,
 	cr.system_object.prototype.acts.SubVar,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
@@ -23845,6 +23845,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetTimescale,
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Sprite.prototype.acts.SetScale,
-	cr.system_object.prototype.cnds.Else
+	cr.plugins_.Sprite.prototype.acts.SetMirrored
 ];};
 
