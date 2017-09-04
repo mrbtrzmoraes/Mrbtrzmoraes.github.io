@@ -23796,10 +23796,10 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
-	cr.plugins_.Audio,
 	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
 	cr.plugins_.Text,
+	cr.plugins_.Audio,
 	cr.behaviors.Bullet,
 	cr.behaviors.Fade,
 	cr.behaviors.solid,
@@ -23809,9 +23809,10 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Sin,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.system_object.prototype.acts.ResetGlobals,
+	cr.plugins_.Audio.prototype.acts.Play,
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Sprite.prototype.acts.SetAnim,
+	cr.system_object.prototype.acts.ResetGlobals,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Audio.prototype.cnds.IsSilent,
 	cr.system_object.prototype.cnds.OnLayoutEnd,
@@ -23829,7 +23830,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet.prototype.acts.SetSpeed,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
-	cr.plugins_.Audio.prototype.acts.Play,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.Wait,
@@ -23844,9 +23844,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetGroupActive,
 	cr.system_object.prototype.acts.SetTimescale,
 	cr.system_object.prototype.acts.RestartLayout,
-	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
-	cr.plugins_.Audio.prototype.acts.SetSilent,
-	cr.system_object.prototype.cnds.Else,
-	cr.plugins_.Sprite.prototype.acts.SetScale
+	cr.plugins_.Sprite.prototype.acts.SetScale,
+	cr.system_object.prototype.cnds.Else
 ];};
 
