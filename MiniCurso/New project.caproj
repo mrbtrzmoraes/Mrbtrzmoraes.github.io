@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>29gc09oj9yj7r</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>2000</width>
+        <height>1464</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="sensor" sid="262274131657304">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="167060571723810">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="442012510353929">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="980684713466071">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="398173117980683" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sensorchao" sid="607466504989146">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="338450914564011">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488455099139264" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fundo" sid="596091553093735">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288637856366274" speed="5">
+                    <frame duration="1" hotspotX="0.500042" hotspotY="0.5002" original-source="C:\Users\20151170150097\Dropbox\Oficina de Criação\bsdf\fundo.png">
+                        <collision-poly>
+                            <point x="8.3956e-005" y="0.000399202" />
+                            <point x="0.998825" y="0.00558882" />
+                            <point x="0.999916" y="0.999601" />
+                            <point x="0.00117538" y="0.994411" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Chao" sid="700580823952584">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\20151170150097\Desktop\assets\tiles\grassCenter.png" />
+        </object-type>
+        <object-type name="Personagem" sid="111276645113726">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="975128750513168">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Parado" pingpong="0" repeatcount="1" repeatto="0" sid="623948628227010" speed="5">
+                    <frame duration="1" hotspotX="0.484848" hotspotY="1.0122" original-source="C:\Users\20151170150097\Desktop\assets\alienYellow_stand.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Correndo" pingpong="0" repeatcount="1" repeatto="0" sid="170982969001514" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\20151170150097\Desktop\assets\alienYellow_walk1.png" />
+                    <frame duration="1" hotspotX="0.485714" hotspotY="1" original-source="C:\Users\20151170150097\Desktop\assets\alienYellow_walk2.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="Pulando" pingpong="0" repeatcount="1" repeatto="0" sid="152339846099446" speed="5">
+                    <frame duration="1" hotspotX="0.492537" hotspotY="1" original-source="C:\Users\20151170150097\Desktop\assets\alienYellow_jump.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="762901815615324">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Lixos" sid="522626576375956">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="546382794835010">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="A1" pingpong="0" repeatcount="1" repeatto="0" sid="423778821128748" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\JogandoLimpo\imagens e testes\Gráficos prontos\Lixos\Imagens para layer\Banana.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="A2" pingpong="0" repeatcount="1" repeatto="0" sid="799942823803634" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\JogandoLimpo\imagens e testes\Gráficos prontos\Lixos\Imagens para layer\Caixa de leite.png">
+                        <collision-poly>
+                            <point x="0.123001" y="0.0843882" />
+                            <point x="0.499385" y="0.00506329" />
+                            <point x="0.945879" y="0.0371308" />
+                            <point x="0.97786" y="0.499578" />
+                            <point x="0.873309" y="0.91308" />
+                            <point x="0.499385" y="0.998312" />
+                            <point x="0.110701" y="0.924051" />
+                            <point x="0.0479705" y="0.499578" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="A3" pingpong="0" repeatcount="1" repeatto="0" sid="654362098066525" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\JogandoLimpo\imagens e testes\Gráficos prontos\Lixos\Imagens para layer\Garrafa.png">
+                        <collision-poly>
+                            <point x="0.328455" y="0.120525" />
+                            <point x="0.499187" y="0" />
+                            <point x="0.689431" y="0.113962" />
+                            <point x="0.996748" y="0.5" />
+                            <point x="0.944715" y="0.979714" />
+                            <point x="0.499187" y="0.997613" />
+                            <point x="0.0845528" y="0.968974" />
+                            <point x="0.0130081" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="A4" pingpong="0" repeatcount="1" repeatto="0" sid="613815320600978" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\JogandoLimpo\imagens e testes\Gráficos prontos\Lixos\Imagens para layer\Lampada.png">
+                        <collision-poly>
+                            <point x="0.143796" y="0.104043" />
+                            <point x="0.499589" y="0.00059453" />
+                            <point x="0.859491" y="0.101665" />
+                            <point x="0.949877" y="0.5" />
+                            <point x="0.570255" y="0.689061" />
+                            <point x="0.499589" y="0.822235" />
+                            <point x="0.0566968" y="0.958977" />
+                            <point x="0.0780608" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="A5" pingpong="0" repeatcount="1" repeatto="0" sid="389806080147393" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\JogandoLimpo\imagens e testes\Gráficos prontos\Lixos\Imagens para layer\Lata velha.png">
+                        <collision-poly>
+                            <point x="0.409861" y="0.309662" />
+                            <point x="0.5" y="0.147264" />
+                            <point x="0.885208" y="0.0867288" />
+                            <point x="0.614022" y="0.5" />
+                            <point x="0.607088" y="0.703143" />
+                            <point x="0.5" y="0.977881" />
+                            <point x="0.0670262" y="0.94936" />
+                            <point x="0.0123267" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Chao2" sid="648531346170969">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\20151170150097\Dropbox\Oficina de Criação\bsdf\grassTop.png" />
+        </object-type>
+        <object-type name="Score" sid="877159176352787">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MenuFundo" sid="172918979534194">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226458665021239" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\Oficina de Criação\bsdf\bg_Titulo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="469378091863724">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531552664188066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20151170150097\Dropbox\Oficina de Criação\bsdf\alienYellow_stand.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.121951" />
+                            <point x="0.5" y="0.0121951" />
+                            <point x="0.848485" y="0.121951" />
+                            <point x="0.969697" y="0.5" />
+                            <point x="0.772727" y="0.817073" />
+                            <point x="0.5" y="0.890244" />
+                            <point x="0.181818" y="0.853659" />
+                            <point x="0.0151515" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="104992090248813">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770670804216651" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510204" original-source="C:\Users\20151170150097\Dropbox\Oficina de Criação\bsdf\buttonLong_brown.png">
+                        <collision-poly>
+                            <point x="0.00526316" y="0.0204082" />
+                            <point x="0.5" y="0" />
+                            <point x="0.994737" y="0.0204082" />
+                            <point x="0.994737" y="0.979592" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00526316" y="0.979592" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Play" sid="907874507323237">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Flash" sid="224405772778901">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Titulo" sid="157784901134690">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="959610516341216">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Text" sid="994193213504817">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="254059918030454">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Audio" sid="372211483016586">
+            <plugin id="Audio" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Fase1.xml</layout>
+        <layout>Menu.xml</layout>
+        <layout>Ganhou.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EventFase1.xml</event-sheet>
+        <event-sheet>EventMenu.xml</event-sheet>
+        <event-sheet>EventGanhou.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="5" />
+        <global-instance type="Mouse" uid="28" />
+        <global-instance type="Audio" uid="32">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="Menu.m4a" />
+        <file name="Menu.ogg" />
+        <file name="Pontuacao.m4a" />
+        <file name="Pontuacao.ogg" />
+        <file name="SomBotao.m4a" />
+        <file name="SomBotao.ogg" />
+        <file name="TelaGanhou.m4a" />
+        <file name="TelaGanhou.ogg" />
+        <file name="TelaPerdeu.m4a" />
+        <file name="TelaPerdeu.ogg" />
+        <file name="FundoJogo.m4a" />
+        <file name="FundoJogo.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

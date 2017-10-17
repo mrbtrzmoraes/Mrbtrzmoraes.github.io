@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventFase1</name>
+    <events>
+        <variable constant="0" name="Pontuacao" sid="743967241855812" static="0" type="number">0</variable>
+        <event-block sid="967237826786760">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="123574858229576" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="875631081994060" type="Personagem">
+                    <param id="0" name="Pin to">sensor</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="938009847663958" type="System">
+                    <param id="0" name="Variable">Pontuacao</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="689454353058491">
+            <conditions>
+                <condition behavior="Platform" id="8" name="On moved" sid="258023387700358" type="sensor" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="579373796545265" type="Personagem">
+                    <param id="0" name="Animation">&quot;Correndo&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="240625276620283">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="205061562522697" type="sensor" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="836457413548633" type="Personagem">
+                    <param id="0" name="Animation">&quot;Parado&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="730469404943769">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="630366164269626" type="sensor" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="146304204942993" type="Personagem">
+                    <param id="0" name="Animation">&quot;Pulando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="916160082351064">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="773977075043857" type="sensor" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="220932670473096">
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" sid="248251885278040" type="sensor" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="205467148531611" type="Personagem">
+                            <param id="0" name="Animation">&quot;Correndo&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="249426954023409">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="798443279889708" type="sensor" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="428832503070218" type="Personagem">
+                            <param id="0" name="Animation">&quot;Parado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="451513036196828">
+            <conditions>
+                <condition id="2" name="Key is down" sid="330904877773174" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="984715696029245" type="Personagem">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="533318499788792">
+            <conditions>
+                <condition id="2" name="Key is down" sid="603662530283745" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="332707234615571" type="Personagem">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942742309745322">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="138924800805879" type="sensor">
+                    <param id="0" name="Object">Lixos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="852115547492142" type="Lixos" />
+                <action id="-10" name="Add to" sid="132646670951342" type="System">
+                    <param id="0" name="Variable">Pontuacao</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="764160116399795" type="Audio">
+                    <param id="0" name="Audio file">Pontuacao</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;sompontuacao&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="236180562214810">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="531086044649588" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="695619735138726" type="Score">
+                    <param id="0" name="Text">&quot;Score:&quot;&amp;Pontuacao</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="627983491486496">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="510894558175841" type="System">
+                    <param id="0" name="Variable">Pontuacao</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="979825006731982" type="System">
+                    <param id="0" name="Layout">Ganhou</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="615924595244392">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="536355788763098" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="739925390614320" type="Audio">
+                    <param id="0" name="Audio file">FundoJogo</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="126188205594623">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="946656399160399" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="363639312791334" type="Audio" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

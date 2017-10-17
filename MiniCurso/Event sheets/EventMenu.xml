@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventMenu</name>
+    <events>
+        <event-block sid="992336483095671">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="833112549726584" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="328088383654249" type="Play">
+                    <param id="0" name="&apos;On&apos; time">0.25</param>
+                    <param id="1" name="&apos;Off&apos; time">0.25</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="851994239176638">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="806101643653789" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="378976870086501" type="System">
+                    <param id="0" name="Layout">Fase1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="726772047661925">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="828021493068298" type="Mouse">
+                    <param id="0" name="Object">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="365171142356048" type="Sprite3">
+                    <param id="0" name="Scale">5.2</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="404816085250700">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="348173152276853" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="736656275284383" type="Audio">
+                            <param id="0" name="Audio file">SomBotao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="165203947374352">
+            <conditions>
+                <condition id="-22" name="Else" sid="771697313466499" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="221060391638985" type="Sprite3">
+                    <param id="0" name="Scale">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="219747302875195">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="193386867439249" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="877257087903561" type="Audio">
+                    <param id="0" name="Audio file">Menu</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="314195740100230">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="897661294839555" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="855067852621671" type="Audio" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
