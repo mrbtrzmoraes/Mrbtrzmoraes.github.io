@@ -50,13 +50,6 @@
                     <param id="0" name="Variable">tempo</param>
                     <param id="1" name="Value">6</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="769414005497233">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="644128270902699" type="System" />
-            </conditions>
-            <actions>
                 <action id="0" name="Play" sid="545523308265713" type="Audio">
                     <param id="0" name="Audio file">TelaGanhou</param>
                     <param id="2" name="Loop">0</param>
