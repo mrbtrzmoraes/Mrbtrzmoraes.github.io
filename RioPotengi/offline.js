@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1510195046,
+	"version": 1510225348,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -27,6 +27,7 @@
 		"images/bok-sheet0.png",
 		"images/pular-sheet0.png",
 		"images/lixo1-sheet0.png",
+		"images/sprite-sheet0.png",
 		"media/400632_cort.m4a",
 		"media/400632_cort.ogg",
 		"icon-16.png",
