@@ -1,6 +1,11 @@
 ﻿{
+<<<<<<< HEAD
 	"name": "Quiz",
 	"short_name": "Quiz",
+=======
+	"name": "Rio Pontengi o jogo",
+	"short_name": "Rio Pontengi o jogo",
+>>>>>>> 37115b2b56d2a09050fa54d90b280d65d6425e2a
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",

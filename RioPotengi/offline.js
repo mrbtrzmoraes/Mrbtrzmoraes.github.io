@@ -1,5 +1,9 @@
 ﻿{
+<<<<<<< HEAD
 	"version": 1512636121,
+=======
+	"version": 1510225847,
+>>>>>>> 37115b2b56d2a09050fa54d90b280d65d6425e2a
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -70,6 +74,7 @@
 		"images/bmenu-sheet0.png",
 		"images/bok-sheet0.png",
 		"images/pular-sheet0.png",
+<<<<<<< HEAD
 		"images/tela-sheet0.png",
 		"images/ondas-sheet0.png",
 		"images/berrado-sheet0.png",
@@ -98,6 +103,10 @@
 		"images/sprite22-sheet0.png",
 		"images/sprite23-sheet0.png",
 		"images/sprite25-sheet0.png",
+=======
+		"images/lixo1-sheet0.png",
+		"images/sprite-sheet0.png",
+>>>>>>> 37115b2b56d2a09050fa54d90b280d65d6425e2a
 		"media/400632_cort.m4a",
 		"media/400632_cort.ogg",
 		"media/como uma onda versão instrumental.wmv (online-audio-converter.com).m4a",
