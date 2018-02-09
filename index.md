@@ -4,9 +4,9 @@ layout: default
 
 criando **minha**  _página_  or ~~Principal~~.
 
-# Quem sou eu
+# Quem sou eu?
 
-Estudante de Programação de Jogos Digitais.
+Maria Beatriz estudante de Programação de Jogos Digitais.
 
 # Produções
 
