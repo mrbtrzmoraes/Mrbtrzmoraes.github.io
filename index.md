@@ -6,7 +6,7 @@ criando **minha**  _página_  or ~~Principal~~.
 
 # Quem sou eu
 
-Sou um estudante de Programação de Jogos Digitais onde vai ser colocado os por portfólios da matéria de Oficina
+Estudante de Programação de Jogos Digitais.
 
 # Produções
 
