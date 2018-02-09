@@ -1,1 +1,28 @@
-theme: jekyll-theme-merlot
+# Configurações do site
+título :
+email :
+descrição : > # isso significa ignorar linhas novas até "baseurl:"
+  Escreva uma descrição incrível para o seu novo site aqui. Você pode editar isso
+  linha em _config.yml. Ele aparecerá no meta do documento principal (para
+  Resultados de pesquisa do Google) e na descrição do site feed.xml.
+baseurl : " "  # subpath do seu site, por exemplo / blog /
+url : " "  # o nome do host básico e o protocolo para o seu site
+
+# Configuração do usuário
+proprietário :
+email :
+facebook_username :
+twitter_username :
+github_username :
+endereço :
+  - linha :
+  - linha :
+  # Sinta-se livre para adicionar mais linhas aqui
+telefone :
+direitos autorais :
+
+# Configurações da API
+google_api_key :
+
+# Configurações de compilação
+markdown : kramdown
