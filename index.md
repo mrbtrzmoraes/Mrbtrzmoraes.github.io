@@ -25,14 +25,14 @@ Maria Beatriz estudante de Programação de Jogos Digitais.
 
 * * *
 
-** negrito
-_ italico
-~~ riscado
-  dois espaçoes para pular linha
-3* adiciona uma linha horizontal
-#s uma ou mais hashtags criam capitulos ou sub
-*s astericos adicionam uma lista não enumerada
-1s numeros adicionam uma lista enumerada
+** negrito  
+_ italico  
+~~ riscado  
+  dois espaçoes para pular linha  
+3* adiciona uma linha horizontal  
+#s uma ou mais hashtags criam capitulos ou sub  
+*s astericos adicionam uma lista não enumerada  
+1s numeros adicionam uma lista enumerada  
 
 
 
