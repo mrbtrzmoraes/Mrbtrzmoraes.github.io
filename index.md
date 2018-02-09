@@ -15,7 +15,9 @@ Maria Beatriz estudante de Programação de Jogos Digitais.
 
 [Jogo 2 Oficina : FIT FOOD](https://mrbtrzmoraes.github.io/FitFood/)    
 
-[Jogo 3 oficina : POTENGI O QUIZ](https://mrbtrzmoraes.github.io/Quiz1/)    
+[Jogo 3 oficina : ![](quiz.png)](https://mrbtrzmoraes.github.io/Quiz1/)
+
+
 
 ## Artes
 
@@ -24,6 +26,8 @@ Maria Beatriz estudante de Programação de Jogos Digitais.
 ![IMAGEM1](http://cdn.shopify.com/s/files/1/0822/1983/articles/panda-mario-mushroom-pixel-art-pixel-art-panda-mario-mushroom-super-mario-cute-pixel-8bit.png?v=1501225178)  
 
 ![](http://cdn.shopify.com/s/files/1/0822/1983/articles/panda-mario-mushroom-pixel-art-pixel-art-panda-mario-mushroom-super-mario-cute-pixel-8bit.png?v=1501225178)
+
+![](mario.png)
 
 
 
