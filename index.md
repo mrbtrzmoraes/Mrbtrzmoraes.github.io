@@ -2,11 +2,9 @@
 layout: default
 ---
 
-criando **minha**  _página_  or ~~Principal~~.
+# Quem sou eu
 
-# Quem sou eu?
-
-Maria Beatriz estudante de Programação de Jogos Digitais.
+Estudante do curso tecnico de Programação de Jogos Digitais. Atualmente cursando o 3° ano.
 
 # Produções
 
