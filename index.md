@@ -4,7 +4,7 @@ layout: padrão
 
 # Quem sou eu
 
-Estudante do curso tecnico de Programação de Jogos Digitais. Atualmente cursando o 3° ano.
+Estudante do curso tecnico de Programação de Jogos Digitais. Atualmente cursando o 3° ano
 
 # Produções
 
