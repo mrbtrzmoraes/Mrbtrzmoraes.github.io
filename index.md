@@ -18,4 +18,9 @@ layout: default
 ### [](#header-3)Games 
 [Jogo 1 Oficina: ![](gf.png)](https://emanuellicarine.github.io/GuerreiroDaFloresta/) 
 
-[Jogo 2 Oficina ![](ff.png)](https://mrbtrzmoraes.github.io/FitFood/)
+[Jogo 2 Oficina: ![](ff.png)](https://mrbtrzmoraes.github.io/FitFood/) 
+
+[Jogo 3 Oficina: ![](pq.png)](https://mrbtrzmoraes.github.io/Quiz1/)
+
+
+## [](#header-2)Participação em eventos:
