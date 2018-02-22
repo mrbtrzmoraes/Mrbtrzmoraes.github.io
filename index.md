@@ -3,7 +3,7 @@ layout: default
 ---
 ## [](#header-2)Quem sou eu?
   Sou Maria Beatriz, estudante do Curso Técnico de Programação de Jogos Digitais.
-![]
+![](bia.jpeg)
 # Contatos:
 
 * Email pessoal: mrbtrznogueira@gmail.com
