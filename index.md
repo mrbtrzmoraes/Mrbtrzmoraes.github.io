@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-# Quem sou eu?
-  Maria Beatriz, estudante do Curso Técnico de Programação de Jogos Digitais.
-
-![](bia.png)
-
+## [](#header-2)Quem sou eu?
+  Sou Maria Beatriz, estudante do Curso Técnico de Programação de Jogos Digitais.
+![]
 # Contatos:
 
 * Email pessoal: mrbtrznogueira@gmail.com
