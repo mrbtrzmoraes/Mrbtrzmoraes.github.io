@@ -10,5 +10,6 @@ layout: default
 #### [](#header-4)Contatos:
 
 * Email pessoal: mrbtrznogueira@gmail.com
-* Email acadêmico: https://beatriz.nogueira@academico.ifrn.edu.br
-* Facebook: Maria Beatriz
+* instagram: mabemoraes
+
+## [](#header-2)Portfólio  
