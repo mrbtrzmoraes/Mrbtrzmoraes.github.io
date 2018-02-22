@@ -12,4 +12,10 @@ layout: default
 * Email pessoal: mrbtrznogueira@gmail.com
 * instagram: mabemoraes
 
-## [](#header-2)Portfólio  
+## [](#header-2)Portfólio 
+
+
+### [](#header-3)Games 
+[Jogo 1 Oficina: ![](gf.png)](https://emanuellicarine.github.io/GuerreiroDaFloresta/) 
+
+[Jogo 2 Oficina ![](ff.png)](https://mrbtrzmoraes.github.io/FitFood/)
