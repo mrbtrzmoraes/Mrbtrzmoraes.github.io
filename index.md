@@ -1,5 +1,5 @@
 
-## [](#header-2)Quem sou eu?
+## [](#header-2)Oi!
   Sou Maria Beatriz, estudante do Curso Técnico de Programação de Jogos Digitais.
 
 ![](bia.jpeg)
